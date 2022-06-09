@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Garments & Ground",
+        "image": "https://i.ibb.co/25dGn7G/garments.png",
+        "img": "https://i.ibb.co/fXzz5cv/g.png",
+        "description": "A full-stack garments products manufacturer website.",
+        "details": "This is a full-stack garments products manufacturer website. Users can register via email & password or google and can purchase any product. Stripe credit card payment system is implemented. Admins and users have different dashboard routes, where only admins can make another admin and also can add or delete products. To see te project more in details please click the live link.",
+        "link": "https://garments-ground.web.app/"
+    },
+    {
+        "id": "2",
+        "name": "Your Fragrance",
+        "image": "https://i.ibb.co/kQb9B95/perfume.png",
+        "img": "https://i.ibb.co/CBX80zJ/p.png",
+        "description": "A full-stack inventory management website to update the quantity of the products.",
+        "details": "This is a full-stack inventory management website to update the quantity of the products. Email & password and google user authentications are applied. JWT & pagination is also implemented in the project. To see te project more in details please click the live link.",
+        "link": "https://perfumes-11.web.app/"
+    },
+    {
+        "id": "3",
+        "name": "Next Level Nutrition",
+        "image": "https://i.ibb.co/4SFKswV/nutrition.png",
+        "img": "https://i.ibb.co/gWQhwnt/n.png",
+        "description": "A website of a personal nutritionist, where anyone can book any fitness program.",
+        "details": "This is a website of a personal nutritionist, where anyone can book any fitness program. 3 types of user authentications are implemented, email & password, google, and GitHub. React Router Dom is used to restrict some links if the user is not logged in. To see te project more in details please click the live link.",
+        "link": "https://next-level-nutrition-2028a.web.app/"
+    }
+]
