@@ -11,7 +11,7 @@ import { ExternalLink } from 'react-external-link';
 const Home = () => {
     return (
         <div>
-            <div className="hero bg-base-200 mt-20">
+            <div className="hero bg-base-200 mb-20">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="avatar online">
                         <div className="w-full rounded-full">

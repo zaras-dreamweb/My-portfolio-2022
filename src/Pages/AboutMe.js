@@ -12,7 +12,9 @@ const AboutMe = () => {
                         I took a 180-degree turn from my educational background and started this journey.</p>
                     <p className='text-success'>  Currently, I am looking for opportunities to further my knowledge in this field.
                         As I have made so far and have acquired knowledge of basic web development,
-                        I strongly believe I will be able to secure my career as a Web Developer soon.</p>
+                        I strongly believe I will be able to secure my career as a Web Developer soon.
+                        Some of my projects are added in this website,
+                        feel free to take a look. </p>
                 </div>
             </div>
         </div>

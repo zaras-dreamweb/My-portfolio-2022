@@ -10,14 +10,14 @@ const Project = () => {
         navigate(`/project/${id}`)
     }
     return (
-        <div>
+        <div className='bg-gray-700 pb-20 border-2 border-success'>
             <h2 className='text-6xl text-success font-bold text-center py-10'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-1 place-items-center lg:grid-cols-3 gap-10'>
                 {
                     projects.map(p => <p key={p._id}>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card w-96 bg-base-100 shadow-4xl">
                             <figure className="px-10 pt-10">
-                                <img src={p.image} alt="" className="rounded-xl" />
+                                <img src={p.img1} alt="" className="rounded-xl" />
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title text-success">{p.name}</h2>
