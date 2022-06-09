@@ -2,6 +2,8 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import git from '../../src/image/git.png'
 import link from '../../src/image/link.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
     const sendEmail = (event) => {
@@ -13,7 +15,7 @@ const Contact = () => {
         )
             .then(res => {
                 console.log(res);
-                alert('email sent')
+                toast("Email Sent");
             }).catch(err => console.log(err));
         event.target.reset();
     }
@@ -50,6 +52,7 @@ const Contact = () => {
                                     <button type='submit' className="btn btn-primary font-bold">Send</button>
                                 </div>
                             </form>
+                            <ToastContainer></ToastContainer>
                         </div>
                     </div>
                 </div>

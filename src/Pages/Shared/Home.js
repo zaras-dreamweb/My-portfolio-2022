@@ -3,6 +3,7 @@ import Project from '../Project';
 import Contact from '../Contact';
 import AboutMe from '../AboutMe';
 import { Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
 
 
 
@@ -30,7 +31,11 @@ const Home = () => {
                             data-aos-duration="50000"
                             data-aos-delay="500"
                             className='text-center'>
-                            <Link to='/contact' className='btn btn-xs btn-success font-extrabold'> Hire Me</Link>
+                            <div className='text-center'>
+                                <ExternalLink href="https://drive.google.com/uc?id=1OOtkAb9QgKfT3ljb6r3ZpeK3IIYHZoJ6&export=download">
+                                    <span className='btn btn-xs btn-success font font-extrabold' >Download Resume</span>
+                                </ExternalLink>
+                            </div>
                         </div>
                     </div>
                 </div>
